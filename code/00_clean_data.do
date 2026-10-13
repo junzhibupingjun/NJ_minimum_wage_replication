@@ -32,4 +32,4 @@ sum fte1 fte2 delta_fte nj gap pct_change
 
 capture mkdir data/processed
 
-save "data/processed/cleaned_data.dta", replace
+export delimited "data/processed/cleaned_data.csv", replace

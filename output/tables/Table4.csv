@@ -1,0 +1,9 @@
+Regressor,(i),(ii),(iii),(iv),(v)
+New Jersey dummy,2.359**,2.327**,,,
+,(1.146),(1.151),,,
+Gap (proportional increase),,,15.891***,15.194**,12.028
+,,,(5.952),(6.083),(7.323)
+Chain & ownership controls,No,Yes,No,Yes,Yes
+Region controls,No,No,No,No,Yes
+Standard error of regression,8.71,8.699,8.676,8.674,8.668
+Probability value for controls,,0.299,,0.381,0.375
