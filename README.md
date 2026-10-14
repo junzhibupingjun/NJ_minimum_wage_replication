@@ -42,11 +42,11 @@ Ensure the raw data public.csv is placed in the data/raw/ folder.
 
 Step 1 (Data Cleaning): Open Stata, set the working directory to the project root, and run code/00_clean_data.do. This will generate cleaned_data.csv in the data/processed/ folder.
 
-Step 2 (Analysis): Open the Python scripts in the code/ folder and run them in sequence:
+Step 2 (Analysis): Open the Python scripts in the `code/` folder and run them in sequence:
 
-1.`01_descriptive.py`: Replicate Table 2.
-2.`02_did_analysis.py`: Replicate Table 3 & Table 4.
-3.`03_extension.py`: Run the independent extension analysis.
+1. `01_descriptive.py`: Replicate Table 2.
+2. `02_did_analysis.py`: Replicate Table 3 & Table 4.
+3. `03_extension.py`: Run the independent extension analysis.
 
 Step 3 (Outputs): All generated tables and figures will be automatically saved in the output/ folder.
 
