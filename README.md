@@ -5,6 +5,7 @@ This project replicates the empirical analysis of Card & Krueger (1994), "Minimu
 
 ## 02 Repository Structure
 
+``` text
 NJ_minimum_wage_replication/
 │
 ├── README.md                     # this file
@@ -25,7 +26,9 @@ NJ_minimum_wage_replication/
 │
 └── output/
     ├── tables/                   # Exported tables (CSV format)
-    └── figures/                  # Exported figures (PNG format)
+    └── figures/                  # Exported figures (PNG format) 
+```
+
 
 ## 03 Data Sources
 Raw Data: data/raw/public.csv is provided by the course (Package 01). It contains store-level survey data of 410 fast-food restaurants in New Jersey and eastern Pennsylvania from two survey waves (February-March 1992 and November-December 1992).
